@@ -1,0 +1,68 @@
+/*
+
+ Description:
+ Abstract Class
+ 
+ Modifications:
+ ---------------------------------------------------------------------------------------
+ Date      Vers.  Comment                                                     Name
+ ---------------------------------------------------------------------------------------
+ 01.12.10  01.00  Created												      Siddiqui
+ 26.12.23  02.00  Updated                                                     Siddiqui
+ ---------------------------------------------------------------------------------------
+
+*/
+
+// ==========================================================================================================
+// Filesystem
+// ==========================================================================================================
+
+/bin          User installed binaries (everything installed using apt)
+/boot         Boot related files (grub, efi, kernel config)       
+/dev          Reference of physical devices (CDROM)
+/etc          Configuration files (.conf)
+/home         User directory
+/lib          Common libaries used by application (kernel, x11)
+/media        Removable devices
+/mnt          Removable devices (deprecated)
+/opt          User compiled applications and libraries
+/root         Superuser directory
+/sbin         Superuser installed binaries
+/usr          User directory (deprecated)
+/var          Logs
+
+// ==========================================================================================================
+// Distributions
+// ==========================================================================================================
+
+Fedora
+Debian/Ubuntu/Elementary/Mint
+Arch
+OpenSUSE
+CentOS
+FreeBSD
+RedHat
+
+// ==========================================================================================================
+// Distributions
+// ==========================================================================================================
+
+GNOME
+Unity 
+KDE
+
+// ==========================================================================================================
+// Package Manager
+// ==========================================================================================================
+
+Apt (dpkg)  Debian
+Pacman      Arch
+Yum         Fedora
+
+// ==========================================================================================================
+// Developers
+// ==========================================================================================================
+
+Richard Stallman                GNU, GCC, Emacs
+Ken Thompson, Dennis Ritchie	Unix
+Linus Torvald                   Linux, Git
